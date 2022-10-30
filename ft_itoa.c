@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "libft.h"
 
 int nbr_len(int nbr)
 {
