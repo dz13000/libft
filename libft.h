@@ -14,7 +14,10 @@ char *ft_strrchr(const char *s, int c);
 int ft_atoi(char *str);
 char    *ft_strdup(const char *str);
 char *ft_itoa(int n);
-void    ft_putchar_fd(char c, int fd);  
+void    ft_putchar_fd(char c, int fd);
+char *ft_strjoin(char const *s1, char const *s2);
+char *ft_substr(char const *s, unsigned int start, size_t len);
+char *ft_strtrim(char const *s1, char const *set);
 //char **ft_split(char const *s, char c);
 //void *ft_calloc(size_t count, size_t size)
 //int ft_memcmp(const void *s1, const void *s2, size_t n);
